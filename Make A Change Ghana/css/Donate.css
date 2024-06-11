@@ -1,0 +1,243 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    height: auto;
+  
+    
+}
+
+
+
+.sec1{
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.Heros{
+   
+    width: 950px;
+    height: 500px;
+   
+    background-image: url('../Assets/IMG_0768\ 3.png');
+    background-size: cover;
+    background-position: -40px;
+    border-radius: 12px;
+}
+
+.HeroShade{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+   
+    gap: 1rem;
+}
+
+.HeroShade h1{
+    color: #FFF;
+font-feature-settings: 'dlig' on;
+font-family: "Noto Sans";
+font-size: 48px;
+font-style: normal;
+font-weight: 800;
+line-height: 60px; /* 125% */
+letter-spacing: -1.584px;
+width: 848px;
+margin-left: 50px;
+
+}
+.HeroShade p{
+    width: 500px;
+    color: #FFF;
+font-feature-settings: 'dlig' on;
+font-family: "noto sans";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+margin-left: 50px;
+}
+
+
+
+.sec3{
+
+    display: flex;
+    flex-direction: column;
+   padding-top: 2rem;
+    justify-content: center;
+    align-items: center;
+   margin-top: 1rem;
+    width: 960px;
+    padding: 1rem;
+    
+}
+.values{
+    display: flex;
+    width: 950px;
+    gap: 12px;
+  flex-wrap: wrap;
+    
+}
+.values .content{
+    display: flex;
+    width: 176px;
+    height: 177px;
+    padding: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: 5px solid  #F2890D;
+  
+}
+
+.text h2 {
+    color: #171712;
+font-feature-settings: 'dlig' on;
+font-family: "Noto sans";
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 20px; /* 125% */
+}
+
+.heal{
+    font-size: 20px;
+    color: red;
+}
+
+.book{
+    font-size: 20px;
+    color: #650df2;
+}
+.case{
+    font-size: 20px;
+    color: #04D900;
+}
+.drip{
+    font-size: 20px;
+    color: blue;
+}
+
+.new{
+    display: flex;
+    flex-direction: column;
+    width: 960px;
+    gap: 1rem;
+    padding: 16px;
+    align-items: flex-start;
+    flex-shrink: 0;
+}
+
+
+.new .contents{
+    display: flex;
+    width: 928px;
+   
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-shrink: 0;
+}
+
+
+.contents span{
+    color: #8A8561;
+font-feature-settings: 'dlig' on;
+
+
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 21px; /* 150% */
+}
+.contents p{
+    color: #040404;
+font-feature-settings: 'dlig' on;
+padding-top: 5px;
+
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 21px; /* 150% */
+}
+.contents h1{
+    padding-top: 10px; 
+}
+.contents section{
+    width: 608px;
+   
+}
+
+.dontitle{
+    width: 961px;
+}
+
+.new img{
+    border: 5px solid #000;
+}
+
+.partern{
+    display: flex;
+width: 921px;
+height: 270px;
+padding: 24px;
+flex-direction: column;
+align-items: flex-start;
+gap: 16px;
+border-radius: 12px;
+border: 6px solid #6D6D6D;
+
+}
+.partern h1{
+   
+width: 868px;
+height: 50px;
+padding: 3px 12px;
+
+flex-shrink: 0;
+border-radius: 12px;
+background: #F2D40D;
+text-align: center;
+font-size: 36px;
+font-style: normal;
+font-weight: 800;
+line-height: 34px; /* 94.444% */
+letter-spacing: 0.18px;
+}
+
+.partern .content p{
+    color: #000;
+}
+
+p b{
+    color: black;
+}
