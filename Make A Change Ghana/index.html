@@ -12,30 +12,32 @@
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 <link rel="manifest" href="/site.webmanifest">
+<script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
    <header>
     <div>
-        <nav>
-            <div class="logo">
-                <img src="Assets/IMG_1530.JPG" alt="make a change Ghana logo" width="100px" height="100px">
-            </div>
-           <div class="navli">
-                <ul>
-                    <li><a href="">Home</a></li>
-                    <li id="dropdown" class="dropdown" ><a href="">Get Involved</a>
-
-                      <ul>
-                        <li><a href="trip.html">Join Us</a></li>
-                        <li><a href="prjoects.html">Help Us Raise Funds</a></li>
-                      </ul>
-                    
-                    </li>
-                    <li><a href="About.html">About Us</a></li>
-                    <button><a href="Donate.html">Donate</a></button>
-                </ul>
-        </div>
-        </nav>
+      <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+          <i class="fas fa-bars"></i>
+        </label>
+        <label class="logo">  <section class="log">
+          <img src="Assets/africa.svg" alt="" width="100px" height="100px">
+          <div class="wave">
+              <span>G</span><span>H</span><span>A</span><span>N</span><span>A</span>
+             
+          </div>
+          <h4>Make A Change</h4>
+      </section></label>
+        <ul>
+          <li><a class="active" href="index.html">Home</a></li>
+          <li><a href="About.html">About</a></li>
+          <li><a href="trip.html">Get Involved</a></li>
+          
+          <li class="do"><a href="prjoects.html">Donate</a></li>
+        </ul>
+      </nav>
         </div>
       
     </div>
@@ -136,9 +138,9 @@
           <p>
             Ghana Make a Change donates funds and medical equipments to a community in Kasoa. These donations ensured that the local clinics is better equipped to provide quality medical care and address critical health needs.
           </p>
-          <ul class="actions">
+          <ol class="actions">
             <li><a href="#" class="button">More</a></li>
-          </ul>
+          </ol>
         </article>
         <article class=" art2">
           <a href="#" class="image"><img src="Assets/tamale.jpg" alt="" /></a>
@@ -146,9 +148,9 @@
           <p>
             Our trip to Tamale and the Northern Region of Ghana was a delightful adventure filled with cultural experiences and natural beauty. We connected with the local community in Bolgatanga, learning how to make beehives with twigs and cow dung, and enjoyed an exciting safari in Tamale, where we saw a variety of wildlife, including walking alongside large wild elephants. 
           </p>
-          <ul class="actions">
+          <ol class="actions">
             <li><a href="#" class="button">More</a></li>
-          </ul>
+          </ol>
         </article>
         
       </div>
@@ -165,17 +167,17 @@
           <p>
             Our trip to Cape Coast Castle was a deeply moving experience, offering a poignant glimpse into Ghana's history. As we walked through the ancient halls and dungeons, we felt the weight of the past and the significance of this historic site. The guides shared powerful stories about the transatlantic slave trade, and we reflected on the resilience and strength of those who endured unimaginable hardships.
           </p>
-          <ul class="actions">
+          <ol class="actions">
             <li><a href="#" class="button">More</a></li>
-          </ul>
+          </ol>
         </article>
         <article class=" art2">
           <a href="#" class="image"><img src="Assets/kakumn.jpg" alt="" /></a>
           <h3>Kakum National Park</h3>
           <p>Our visit to Kakum National Park was an exhilarating adventure immersed in the heart of Ghana's tropical rainforest. We navigated the famous canopy walkway, suspended high above the forest floor, offering breathtaking views of the lush greenery and diverse wildlife below. Walking among the treetops, we spotted various bird species and listened to the sounds of the jungle, feeling a profound connection to nature.</p>
-          <ul class="actions">
+          <ol class="actions">
             <li><a href="#" class="button">More</a></li>
-          </ul>
+          </ol>
         </article>
         
       </div>
@@ -284,25 +286,43 @@
    
    </main>
    
-   <footer>
-    <div class="footer-content">
-        <div class="social-media">
-            <a href="#">Facebook</a>
-            <a href="#">Twitter</a>
-            <a href="#">Instagram</a>
+   
+   <div class="bg-black-900 text-white py-8 footer">
+    <div class="container mx-auto px-4">
+      <div class="flex flex-wrap justify-between">
+        <div class="w-full md:w-1/4 mb-4 md:mb-0">
+          <img src="Assets/IMG_1530.JPG" alt="" width="240px">
+          <h2 >Make A Change Ghana</h2>
         </div>
-        <nav>
+        
+        
+        
+        <div class="w-full md:w-1/4 mb-4 md:mb-0">
+          <ul>
+            <li class="mb-2"><a href="#" class="hover:underline">ABOUT US</a></li>
+            <li class="mb-2"><a href="#" class="hover:underline">CONTACT US</a></li>
+            <li class="mb-2"><a href="#" class="hover:underline">HOME</a></li>
+            <li class="mb-2"><a href="#" class="hover:underline">TRIP</a></li>
+          </ul>
+        </div>
+        <div class="w-full md:w-1/4 mb-4 md:mb-0">
             <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#trips">Trips</a></li>
-                <li><a href="#testimonials">Testimonials</a></li>
-                <li><a href="#contact">Contact</a></li>
+              <li class="mb-2"><a href="#" class="hover:underline">DONATE</a></li>
+              <li class="mb-2"><a href="#" class="hover:underline"> FAQS</a></li>
+              <li class="mb-2"><a href="#" class="hover:underline">VOLUNTEER </a></li>
             </ul>
-        </nav>
-        <p>&copy; 2024 NGO. All rights reserved.</p>
+          </div>
+      </div>
+      <hr class="my-8 border-black-700">
+      <div class="flex justify-center space-x-4 mb-4 socilIcon">
+        <a href="#" class="text-white hover:text-black-400"><img aria-hidden="true" alt="facebook" src="Assets/book.png" /></a>
+        <a href="#" class="text-white hover:text-black-400"><img aria-hidden="true" alt="twitter" src="Assets/x.png" /></a>
+        <a href="#" class="text-white hover:text-black-400"><img aria-hidden="true" alt="rss" src="Assets/insta.png" /></a>
+        <a href="#" class="text-white hover:text-black-400"><img aria-hidden="true" alt="dribbble" src="Assets/tiktok.png" /></a>
+      </div>
+      <p class="text-center text-sm">&copy;Copyright. All rights reserved.</p>
     </div>
-</footer>
+  </div>
 
    <script src="js/slider.js" ></script>
    <script src="js/jquery.min.js"></script>

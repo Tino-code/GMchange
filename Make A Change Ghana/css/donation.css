@@ -1,0 +1,30 @@
+.DoHero{
+    background-color: rgb(82, 239, 110);
+    position: relative;
+   
+    overflow: hidden;
+}
+
+.DoHero img{
+    width: 150px;
+    position: absolute;
+    top: 20%;
+    left: 85%;
+   
+}
+
+.DO img{
+    width: 200px;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+.PO{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
